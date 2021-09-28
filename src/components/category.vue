@@ -124,13 +124,13 @@ export default{
                 localStorage.setItem(STORAGE_KEY_1,JSON.stringify(this.$store.state.categories));
 
             },
-            editCategory(val){
-                // console.log(this.index);
-                // console.log(val);
-                this.categories[this.index].name = val;
-                // localStorage.setItem(STORAGE_KEY,JSON.stringify(this.categories));
+            // editCategory(val){
+            //     // console.log(this.index);
+            //     // console.log(val);
+            //     this.categories[this.index].name = val;
+            //     // localStorage.setItem(STORAGE_KEY,JSON.stringify(this.categories));
 
-            }
+            // }
             // editData(){
             //     this.EditData = this.allData;
             //     let ide =this.editId;
